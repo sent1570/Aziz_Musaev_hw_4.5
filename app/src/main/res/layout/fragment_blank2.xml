@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment2">
+
+    <TextView
+        android:id="@+id/firstTv"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="140dp"
+        />
+    <TextView
+
+        android:layout_width="250dp"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="+"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        />
+    <TextView
+        android:id="@+id/secondTv"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/resultTv"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/percentageTv"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+</FrameLayout>
